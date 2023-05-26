@@ -20,6 +20,15 @@ return {
     },
   },
 
+  -- bufferline
+  {
+    "akinsho/bufferline.nvim",
+    opts = {
+      offsets = { separator_style = "slope" },
+      numbers = "buffer_id",
+    },
+  },
+
   -- change trouble config
   {
     "folke/trouble.nvim",
